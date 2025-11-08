@@ -80,50 +80,6 @@ Safari and Mobile browsers are limited to single 1GB files, due to lack of suppo
 | 2   | [hat.vercel.app](https://hat.vercel.app/) |
 
 <br>
-
-## Donations
-
-The project is maintained in my free time. Donations of any size are appreciated :
-
-<br>
-
-<div>
-
-<strong>Crypto</strong>
-
-  <table>
-    <tr>
-      <th></th>
-      <th>Coin</th>
-      <th>Address</th>
-    </tr>
-    <tr>
-      <td><img src="https://i.imgur.com/utSCHpB.png" /></td>
-      <td>Monero</td>
-      <td style="word-break: break-word">
-        <code
-          >84zQq4Xt7sq8cmGryuvWsXFMDvBvHjWjnMQXZWQQRXjB1TgoZWS9zBdNcYL7CRbQBqcDdxr4RtcvCgApmQcU6SemVXd7RuG</code
-        >
-      </td>
-    </tr>
-    <tr>
-      <td><img src="https://i.imgur.com/imvYFLR.png" /></td>
-      <td>Bitcoin</td>
-      <td><code>bc1qlfnq8nu2k84h3jth7a27khaq0p2l2gvtyl2dv6</code></td>
-    </tr>
-    <tr>
-      <td><img src="https://i.imgur.com/a4vLbjm.png" /></td>
-      <td>Ethereum</td>
-      <td><code>0xF6F204B044CC73Fa90d7A7e4C5EC2947b83b917e</code></td>
-    </tr>
-  </table>
-
-  <br>
-  
-  <strong>Kofi</strong>
-
-[https://ko-fi.com/shdvapps](https://ko-fi.com/shdvapps)
-
 <strong>Open Collective</strong>
 
 [https://opencollective.com/hatsh](https://opencollective.com/hatsh)
