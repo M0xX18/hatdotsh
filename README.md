@@ -133,36 +133,9 @@ The project is maintained in my free time. Donations of any size are appreciated
 <br>
 <br>
 
-## Social
-
-- [Reddit](https://reddit.com/r/hatsh)
-
-<br>
-
-## Acknowledgements
-
-- Everyone who supported the project.
-- [Samuel-lucas6](https://github.com/samuel-lucas6) from the [Kryptor](https://github.com/samuel-lucas6/Kryptor) project for being helpful and doing a lot of beta testing.
-- [stophecom](https://github.com/stophecom) from the [Scrt.link](https://scrt.link/) project for translating to German.
-- [bbouille](https://github.com/bbouille) for translating to French.
-- [qaqland](https://github.com/qaqland) for translating to Chinese.
-- [Ser-Bul](https://github.com/Ser-Bul) for translating to Russian.
-- [matteotardito](https://github.com/matteotardito) for translating to Italian.
-- [t0mzSK](https://github.com/t0mzSK) for translating to Slovak.
-- [Xurdejl](https://github.com/Xurdejl) for translating to Spanish.
-- [Franatrtur](https://github.com/Franatrtur) for translating to Czech.
-- [darkao](https://github.com/darkao) for translating to Turkish.
-- [Frank7sun](https://github.com/Frank7sun) for translating to Japanese.
-
-<br>
-
 ## Credits
 
-[libsodium.js](https://github.com/jedisct1/libsodium.js)
-
-[next.js](https://nextjs.org/)
-
-[material-ui](https://material-ui.com/)
+Fork of [HAT.SH](https://github.com/sh-dv/hat.sh)
 
 <br>
 
