@@ -288,7 +288,7 @@ export default function About(props) {
 
       <List>
         <ListItem button component="a">
-          <ListItemText primary="Hat.sh Documentation" />
+          <ListItemText primary="HatDotSh Documentation" />
         </ListItem>
       </List>
 
@@ -352,7 +352,7 @@ export default function About(props) {
               </Button>
 
               <IconButton
-                href="https://github.com/sh-dv/hat.sh"
+                href="https://github.com/M0xX18/hatdotsh"
                 target="_blank"
                 rel="noopener"
               >

@@ -68,17 +68,20 @@ export const checkTheme = () => {
   if (typeof window !== "undefined") {
     let darkMode = window.localStorage.getItem("darkTheme");
 
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    // Si no hay preferencia guardada, establecer modo oscuro como predeterminado
+    if (darkMode === null) {
       if (localStorage) {
-        if(darkMode != 0) {
-          localStorage.setItem("darkTheme", "1");
-          document.querySelector("html").classList.add("darkStyle");
-        }
+        localStorage.setItem("darkTheme", "1");
+        document.querySelector("html").classList.add("darkStyle");
       }
+      return;
     }
 
-    if (darkMode > 0) {
+    // Si hay preferencia guardada, respetarla
+    if (darkMode === "1" || darkMode > 0) {
       document.querySelector("html").classList.add("darkStyle");
+    } else {
+      document.querySelector("html").classList.remove("darkStyle");
     }
   }
 

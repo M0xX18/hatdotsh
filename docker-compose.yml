@@ -1,12 +1,36 @@
-version: "3"
+version: "3.8"
 
 services:
   web:
-    image: shdv/hat.sh
+    image: hatdotsh-reforged:latest
     build:
       context: ./
       dockerfile: Dockerfile
     ports:
-      - 3991:80
-    volumes:
-      - ./src:/usr/share/nginx/html/out
+      - "3991:80"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+      - /var/run
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+    networks:
+      - hatsh-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  hatsh-network:
+    driver: bridge

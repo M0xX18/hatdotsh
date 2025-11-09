@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          {"Hat.sh"}
+          {"HatDotSh"}
           {" - "}
           {t("sub_title")}
         </title>

@@ -79,7 +79,6 @@ const TabPanel = (props) => {
 
   return (
     <div
-      component="div"
       role="tabpanel"
       hidden={value !== index}
       id={`donation-tabpanel-${index}`}
@@ -155,7 +154,7 @@ export default function Footer() {
       <footer className={classes.footer}>
         <Container maxWidth="sm">
           <Typography variant="body1">
-            Built and developed by{" "}
+            Based on hat.sh by{" "}
             <Link
               href="https://github.com/sh-dv"
               target="_blank"
@@ -163,6 +162,15 @@ export default function Footer() {
               color="inherit"
             >
               {"sh-dv"}
+            </Link>
+            {" | Reforged by "}
+            <Link
+              href="https://github.com/M0xX18"
+              target="_blank"
+              rel="noopener"
+              color="inherit"
+            >
+              {"M0xX18"}
             </Link>
           </Typography>
 
@@ -199,9 +207,9 @@ export default function Footer() {
             <DialogContent>
               <Hidden xsDown>
                 <DialogContentText style={{ textAlign: "center" }}>
-                  Hat.sh is an open-source application. The project is
-                  maintained in my free time. Donations of any size are
-                  appreciated.
+                  HatDotSh is a reforged version of hat.sh, an open-source application. 
+                  The original project is maintained by sh-dv in their free time. 
+                  Donations of any size are appreciated to support the original project.
                 </DialogContentText>
               </Hidden>
 
