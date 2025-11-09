@@ -11,6 +11,7 @@ cypress
 .cypress
 cypress.json
 *.md
+!CHANGELOG.md
 .DS_Store
 .vscode
 .idea

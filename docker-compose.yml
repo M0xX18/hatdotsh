@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   web:
-    image: hatdotsh-reforged:latest
+    image: m0xx25/hatdotsh:latest
     build:
       context: ./
       dockerfile: Dockerfile

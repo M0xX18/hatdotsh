@@ -1,4 +1,4 @@
-FROM node:alpine AS builder
+FROM node:20-alpine AS builder
 
 # Crear usuario no-root para build
 RUN addgroup -g 1001 -S nodejs && \
@@ -35,8 +35,8 @@ RUN apk update && \
 # Copiar archivos estáticos
 COPY --from=builder /app/out /usr/share/nginx/html
 
-# Copiar configuración de seguridad de Nginx
-COPY nginx-security.conf /etc/nginx/conf.d/security.conf
+# Copiar configuración de servidor de Nginx (reemplaza default.conf)
+COPY nginx-default.conf /etc/nginx/conf.d/default.conf
 
 # Configurar permisos
 RUN chown -R nginx:nginx /usr/share/nginx/html && \
