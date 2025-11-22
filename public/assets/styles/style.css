@@ -56,3 +56,8 @@ body {
   white-space: nowrap;
   overflow: hidden;
 }
+
+.MuiTypography-root {
+  display: flex;
+  justify-content: center !important;
+}

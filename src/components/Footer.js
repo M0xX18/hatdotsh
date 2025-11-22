@@ -174,18 +174,6 @@ export default function Footer() {
             </Link>
           </Typography>
 
-          <Chip
-            size="small"
-            className={classes.chip}
-            avatar={
-              <Avatar src={`/assets/icons/${currAvatar}-logo.png`}></Avatar>
-            }
-            label="Donations Accepted"
-            clickable
-            onClick={() => handleClickOpen()}
-            onDelete={() => handleClickOpen()}
-            deleteIcon={<MonetizationOnIcon className={classes.monIcon} />}
-          />
           <Dialog
             scroll="body"
             maxWidth="sm"
